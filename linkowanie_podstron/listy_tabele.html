@@ -1,0 +1,370 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+		<title>Listy i tabele</title>
+        <style>
+		   
+			
+			
+		</style>
+        
+    </head>
+    <body>
+	   <h1><a href="http://ikot.edu.pl/artykuly,webdesign,html_cwiczenia_listy_i_tabele,43.html">Treść zadań</a></h1>
+	
+	   <h2>Lista 1 - standardowa numerowana</h2>
+        <ol>
+            <li>Internet
+			<li>Gry
+			<li>Sport
+        </ol>		
+        
+		<h2>Lista 2 - standardowa nienumerowana</h2>
+		<h3>Popularne kodowania dla języka polskiego</h3>
+		 <ul>
+		    <li>utf-8
+			<li>iso-8859-2
+			<li>windows-1250
+		 </ul>
+		 
+		 <h2>Lista 3 - mieszanka</h2>
+		 <ul>
+		    <li>Klasy drugie
+			    <ol>
+				    <li>2TI1
+					<li>2TI2
+					<li>2TI3
+				</ol>
+			
+			</li>
+			
+			<li>Klasy trzecie
+			    <ol>
+				    <li>3TI1
+					<li>3TI2
+				</ol>
+			</li>
+		 </ul>
+		 
+		 <h2>Listy 4 - trzy trzy posiomy</h2>
+		 
+		 <ol>
+		    <li>Klasy drugie
+			    <ul>
+				    <li>2TI1
+					    <ul>
+						    <li>Grupa A
+							<li>Grupa B
+						</ul>
+					</li>
+					<li>2TI2
+					    <ul>
+						    <li>Grupa A
+							<li>Grupa B
+						</ul>
+					</li>
+					<li>2TI3
+					    <ul>
+						    <li>Grupa A
+							<li>Grupa B
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>Klasy trzecie
+			    <ol>
+				    <li>3TI1
+					<li>3TI2
+				</ol>
+			</li>
+		 </ol>
+		 
+		 <h2>Lista 5 - lista rzymska</h2>
+		 <ul style="list-style-type: lower-roman; ">
+		    <li>Alpha
+			<li>Beta
+			<li>Gamma
+		 </ul>
+		 
+		 <h2>Lista 6 - lista z ikonką</h2>
+		 <ul style="list-style-image:url(obrazki/printer_icon.gif);">
+		    <li>Samsung HL2300
+			<li>HP 9020
+			<li>Kyocera 3210
+		 <ul>
+		 
+		 <h2>Lista 7 - lista definicji</h2>
+		 <dl>
+		    <dt>S.M.A.R.T<dt>
+			<dd>(ang. Self-Monitoring, Analysis and Reporting Technology)- system
+			  monitorowania i powiadamiania o błędach działania twardegodysku.
+			</dd>
+		 </dl>
+		 
+		 <dl>
+		    <dt>SCSI<dt>
+			<dd>(skrót z ang. Small Computer Systems Interface)- równoległa magistrala danych
+			  przeznaczona do przesyłania danych między urządzeniami.
+			</dd>
+		 </dl>
+		 
+		 
+		 <!-- ============================================================= -->
+		 
+		 <h2>Tabela 1 - prosta tabelka</h2>
+		 <table style="border: 2px solid black;" >
+		     <tr>
+			    <td style="border:1px solid black">a1</td>
+			    <td style="border:1px solid black">a2</td>
+				<td style="border:1px solid black">a3</td>
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid black">b1</td>
+			    <td style="border:1px solid black">b2</td>
+				<td style="border:1px solid black">b3</td>
+			 </tr>
+		 </table>
+		 
+		  <h2>Tabela 2- cellpadding + align center</h2>
+		 <table style="border: 2px solid black;" cellpadding="4" align="center" >
+		     <tr>
+			    <td style="border:1px solid black">a1</td>
+			    <td style="border:1px solid black">a2</td>
+				<td style="border:1px solid black">a3</td>
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid black">b1</td>
+			    <td style="border:1px solid black">b2</td>
+				<td style="border:1px solid black">b3</td>
+			 </tr>
+		 </table>
+		  <h2>Tabela 3 - cellpadding + cellspacing + bordercolor</h2>
+		 <table style="border: 2px solid blue;" cellpadding="4" cellspacing="7" >
+		     <tr>
+			    <td style="border:1px solid blue">a1</td>
+			    <td style="border:1px solid blue">a2</td>
+				<td style="border:1px solid blue" >a3</td>
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid blue">b1</td>
+			    <td style="border:1px solid blue">b2</td>
+				<td style="border:1px solid blue">b3</td>
+			 </tr>
+		 </table>
+		 <h2>Tabela 4- tabela bez obramowania</h2>
+		 <table>
+		     <tr>
+			    <td align="center" colspan="3">Najdłuższe rzeki świata</td>
+			 </tr>
+		     <tr>
+			    <td style="background-color: black; color: white;">Nazwa</td>
+			    <td style="background-color: black; color: white;">długość w km</td>
+				<td style="background-color: black; color: white;">Nazwapow. dorzecza w tys.km^2</td>
+			 </tr>
+			 <tr>
+			    <td >Nil</td>
+			    <td >6671</td>
+				<td >2870</td>
+			 </tr>
+			 <tr>
+			    <td >Missisipi(od źródeł Missouri)</td>
+			    <td >6418</td>
+				<td >3275</td>
+			 </tr>
+			 <tr>
+			    <td >Amazonka(z Maranon)</td>
+			    <td >6400</td>
+				<td >7180</td>
+			 </tr>
+			 <tr>
+			    <td >Jangcy</td>
+			    <td >5701</td>
+				<td >1726</td>
+			 </tr>
+		 </table>
+		
+		 <h2>Tabela 5 - wykorzystanie TH</h2>
+		<table style="border: 2px solid black;" cellpadding="16" >
+		     <tr>
+			 Wzrost produkcji w latach 1991-1995(w mln USD)
+			 </tr>
+		     <tr style="background-color:gray;">
+			    <td style="border:1px solid black; ">1991</td>
+			    <td style="border:1px solid black">1992</td>
+				<td style="border:1px solid black">1993</td>
+				<td style="border:1px solid black">1994</td>
+				<td style="border:1px solid black">1995</td>
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid black">1150</td>
+			    <td style="border:1px solid black">1240</td>
+				<td style="border:1px solid black">1380</td>
+				<td style="border:1px solid black">1420</td>
+				<td style="border:1px solid black">1550</td>
+			 </tr>
+		 </table>
+		 <h2>Tabela 6 - colspan</h2>
+		 <table style="border: 2px solid black; width:400px;" >
+		     <tr>
+			    <td style="border:1px solid black" align="center"></td>
+			    <td style="border:1px solid black" align="center" colspan="2">1991-1992</td>
+				<td style="border:1px solid black" align="center" colspan="3">1993-1995</td>
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid black" align="center">Masło</td>
+			    <td style="border:1px solid black"  align="center"colspan="2">2390</td>
+				<td style="border:1px solid black"  align="center"colspan="3">4350</td>
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid black" align="center">Margaryna</td>
+			    <td style="border:1px solid black" align="center">800</td>
+				<td style="border:1px solid black" align="center">900</td>
+				<td style="border:1px solid black" align="center">980</td>
+				<td style="border:1px solid black" align="center">1150</td>
+				<td style="border:1px solid black" align="center">1320</td>
+			 </tr>
+			 
+		 </table>
+		 
+		 <h2>Tabela 7 - rowspan</h2>
+		 <table style="border: 2px solid black; width:400px;" >
+		     <tr>
+			    <td style="border:1px solid black" align="center" rowspan="3">left</td>
+				<td style="border:1px solid black" align="center">top</td>
+				<td style="border:1px solid black" align="center" rowspan="3" >right</td>
+			 </tr>
+			 <tr>
+			   
+			    <td style="border:1px solid black"  align="center">center</td>
+				
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid black"  align="center">bottom</td>
+			 </tr>
+			 
+		 </table>
+		 
+		 <h2>Tabela 8 - rowspan + colspan</h2>
+		 <table style="border: 2px solid black; width:200px;" >
+		     <tr>
+			     <td style="border:1px solid black" colspan="2">A</td>
+			 </tr>
+		     <tr>
+			    <td style="border:1px solid black" rowspan="3">B</td>
+				<td style="border:1px solid black">C</td>
+				
+			 </tr>
+			 <tr>
+			   
+			    <td style="border:1px solid black">D</td>
+				
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid black" >E</td>
+			 </tr>
+			 
+		 </table>
+		 
+		 <h2>Tabela 9 - "troll face"</h2>
+		 <table style="border: 2px solid black; width:200px;"  cellpadding="20px" >
+		     <tr>
+			     <td style="border:1px solid black; background-color:red;">a1</td>
+				 <td style="border:1px solid black; background-color:green " align="top">a2</td>
+				 <td style="border:1px solid black; background-color:blue;" >a3</td>
+			 </tr>
+		     <tr>
+			    <td style="border:1px solid black; background-color:white;" >a1</td>
+				<td style="border:1px solid black;" ><img src=""><img src=""></td>
+				<td style="border:1px solid black; background-color:black;" >a3</td>
+			 </tr>
+			 <tr>
+			    <td style="border:1px solid black; background-color:yellow;" >a1</td>
+				<td style="border:1px solid black; background-color:skyblue;" >a2</td>
+				<td style="border:1px solid black; background-color:purple;" >a3</td>
+			 </tr>
+			
+			 
+		 </table>
+		 
+		 <h2>Tabela 10 - dane produkcyjne</h2>
+		 <table >
+		     <tr>
+			     <td style="border-right: 1px solid black; border-bottom:1px solid black;">Produkcja</td>
+				 <td style="border-bottom:1px solid black;">
+				    <table>
+					    <tr>
+						    <td >1993</td>
+							<td >1994</td>
+							<td >1995</td>
+							<td >1996</td>
+						</tr>
+					</table>  
+				</td>
+			 </tr>
+			 <tr>
+			    <td style="border-right:1px solid black;">
+			        <table>
+					    <tr>
+						    <td>śliwki</td>
+						</tr>
+						<tr>
+						    <td>gruszki</td>
+						</tr>
+						<tr>
+						    <td>jabłka</td>
+						</tr>
+						<tr>
+						    <td>czereśnie</td>
+						</tr>
+						<tr>
+						    <td>wiśnie</td>
+						</tr>
+					</table>
+			    </td>
+				<td style="border-bottom:1px solid black;">
+				    <table style="width:80px;">
+					    <tr>
+						    <td>1,2</td>
+							<td>1,3</td>
+							<td>0,9</td>
+							<td>1,5</td>
+						</tr>
+						<tr>
+						    <td>0,8</td>
+							<td>1,1</td>
+							<td>1,4</td>
+							<td>0,5</td>
+						</tr>
+						<tr>
+						    <td>3,1</td>
+							<td>2,7</td>
+							<td>2,2</td>
+							<td>3,0</td>
+						</tr>
+						<tr>
+						    <td>0,2</td>
+							<td>0,4</td>
+							<td>0,3</td>
+							<td>0,6</td>
+						</tr>
+						<tr>
+						    <td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					
+					</table>
+				</td>
+			  </tr>
+		     <tr>
+			    <td style="font-weight:bold; border-top:1px solid black; border-right:1px solid black;">w mln ton</td>
+			 </tr>
+			
+			
+			 
+		 </table>
+		 
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            h2{
+              color:gray;
+              font-style:italic;
+              font-family: serif;
+              font-weight:bold;
+            }
+            p{
+                
+                background-color:pink;
+            }
+            h2{
+                background-color:orange;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>Kamil's blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#pierwszy">First post!</a></li>
+             <li><a href="#drugi">Second post!</a></li>
+        </ul>
+        
+        <h2 id="pierwszy">First post</h2>
+        <h6>20 maj 2020</h6>
+        
+        <p>Zacząłem interesować się stronami internetowymi na poważnie i podjąłem  wiele kroków do osiągnięcia celu.</p>
+        <h2 id="drugi">Second post</h2>
+        <h6>28 maj 2020</h6>
+        
+        <p>Zacząłem naukę angulara i zauważyłem w tym swoją przyszłość i myślę, że angular będzie czymś co polubię</p>
+        
+    </body>
+</html>

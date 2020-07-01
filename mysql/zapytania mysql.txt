@@ -1,0 +1,34 @@
+Tworzenie tabel i wypełnianie ich danymi
+
+CREATE DATABASE szkola DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+CREATE TABLE uczniowie
+(
+  id_uczen INT UNSIGNED NOT NULL PRIMARY KEY,
+  nazwisko CHAR(50) NOT NULL
+);          
+CREATE TABLE klasy
+(
+  id_uczen INT UNSIGNED,
+  klasa CHAR(20)
+);
+
+INSERT INTO uczniowie VALUES(1, 'Mądry'), (2, 'Zdolny'),  (3, 'Pracowity'),  (4, 'Zaradny'),  (5, 'Ambitny');
+
+INSERT INTO klasy VALUES  (2, '1 A'),  (4, '1 A'),  (5, '2 B');
+
+==========================================================================================================
+Zapytania
+
+SELECT * FROM uczniowie INNER JOIN klasy ON uczniowie.id_uczen = klasy.id_uczen;
+
+SELECT * FROM uczniowie, klasy WHERE uczniowie.id_uczen = klasy.id_uczen;
+
+SELECT * FROM uczniowie  INNER JOIN klasy  USING(id_uczen);
+
+SELECT * FROM uczniowie LEFT JOIN klasy ON uczniowie.id_uczen = klasy.id_uczen;
+
+SELECT * FROM uczniowie CROSS JOIN klasy;
+
+
+
